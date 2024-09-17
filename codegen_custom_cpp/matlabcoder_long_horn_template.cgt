@@ -1,0 +1,123 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% CGT File's Encoding (optional)
+%%   Specify what encoding the CGT file was originally writen in by uncommenting
+%%   the following tag. See web(fullfile(docroot, 'matlab/ref/fopen.html')) for
+%%   supported file encodings.
+%%
+%%   Common encodings: UTF-8, US-ASCII, Windows-1252, Shift_JIS
+%%
+%% 参考:1、 https://blog.csdn.net/qq_42475711/article/details/104777171 
+%% 2、matlab topic: Generate Custom File and Function Banners for C/C++ Code
+%%
+ <encodingIn="UTF-8">
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Custom File Banner section (optional)
+%% Customize File banners by using either custom tokens or the following
+%% predefined tokens: 
+%% %<FileName>, %<MATLABCoderVersion>, %<EmbeddedCoderVersion>
+%% %<SourceGeneratedOn> , %<HardwareSelection>, %<OutputType> 
+%%
+%% You can also use "custom tokens" in all of the sections below. See the 
+%% documentation center for more details. 
+%%
+<FileBanner style="doxygen">
+@file           : %<FileName>
+@target         : %<HardwareSelection>
+@details        : %<myDescription>
+@author         : cuixingxing
+@email          : cuixingxing150@gmail.com
+@date           : %<SourceGeneratedOn>
+@version        : %<myAlgorithmVersion>
+@copyright      : Copyright (C) 2023 TheMatrix.All rights reserved.
+</FileBanner>
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Custom Function Banner section (optional)
+%% Customize function banners by using the following predefined tokens: 
+%% %<FunctionName>, %<FunctionDescription>, %<FunctionPrototype>
+%% %<Arguments>, %<ReturnType> 
+%%
+<FunctionBanner style="doxygen">
+@fn	            : %<FunctionName>
+@brief          : %<FunctionDescription>
+@param          : %<Arguments>
+@return	        : %<ReturnType>
+</FunctionBanner>
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Custom Shared Utility Function Banner section (optional)
+%% Customize shared utility function banners by using the following 
+%% predefined tokens: 
+%% %<FunctionName>, %<FunctionDescription>
+%% %<Arguments>, %<ReturnType> 
+%%
+<SharedUtilityBanner style="doxygen">
+@fn	            : %<FunctionName>
+@brief          : %<FunctionDescription>
+@param          : %<Arguments>
+@return	        : %<ReturnType>
+</SharedUtilityBanner>
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Custom File Trailer section (optional)
+%% You can use any of the predefined tokens available for the Custom File 
+%% Banner Section.
+%% 
+<FileTrailer style="doxygen">
+File trailer for %<FileName>
+
+[EOF]
+</FileTrailer>
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Code Insertion section comments (optional) 
+%% You can use the following section banners to customize the comments that 
+%% appear before a specific code section, for example, "Include Files" or 
+%% "Function Definitions". 
+%%
+%% Include Files 
+<IncludeFilesBanner style="doxygen">
+@include file  	 : Include Files
+</IncludeFilesBanner>
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Type Declarations
+<TypeDeclarationsBanner style="doxygen">
+Type Declarations
+</TypeDeclarationsBanner>
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Type Definitions
+<TypeDefinitionsBanner style="doxygen">
+Type Definitions
+</TypeDefinitionsBanner>
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Named Constants
+<NamedConstantsBanner style="doxygen">
+Named Constants
+</NamedConstantsBanner>
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Variable Declarations 
+<VariableDeclarationsBanner style="doxygen">
+Variable Declarations
+</VariableDeclarationsBanner>
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Variable Definitions
+<VariableDefinitionsBanner style="doxygen">
+Variable Definitions
+</VariableDefinitionsBanner>
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Function Declarations 
+<FunctionDeclarationsBanner style="doxygen">
+Function Declarations
+</FunctionDeclarationsBanner>
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Function Definitions
+<FunctionDefinitionsBanner style="doxygen">
+Function Definitions
+</FunctionDefinitionsBanner>
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Custom Source Code 
+<CustomSourceCodeBanner style="doxygen">
+Custom Source Code
+</CustomSourceCodeBanner>
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Custom Header Code 
+<CustomHeaderCodeBanner style="doxygen">
+Custom Header Code
+</CustomHeaderCodeBanner>
