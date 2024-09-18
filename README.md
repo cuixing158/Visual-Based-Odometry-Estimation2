@@ -1,5 +1,7 @@
 # Visual-Based Odometry Estimation2
 
+[![View Visual-Based-Odometry-Estimation2 on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://www.mathworks.com/matlabcentral/fileexchange/172820-visual-based-odometry-estimation2)
+
 This repo is an enhanced version of [Visual-Based Odometry Estimation](https://github.com/cuixing158/Visual-Based-Odometry-Estimation). In addition to supporting the existing features(following Features), it adds loop detection and graph optimization, supports efficient C/C++ code generation, allows for [deep customization with a C++ OpenCV MEX interface, and enables hybrid programming](./codegen_custom_cpp/README.md)!
 
 ## Features
@@ -44,13 +46,13 @@ Complier
 
 测试基准：使用MATLAB内建函数`detectORBFeatures`和`extractFeatures`默认设置的结果特征输入给原始DBOW3，每张图片提取的特征数定固定为为尽可能多(HXW，一般典型特征点数量5000左右)，无均匀处理。2687张480x640图片提取的词袋特征耗时17min左右！
 
-queryID=283，DBOW3表现,同样，绿色框为re-ranking的最佳选择：
+queryID=283，DBOW3表现,同样，绿色框为re-ranking的最佳选择：<br>
 ![bof1](./images/DBOW3_matlab_orbFeatures_add_queryIdx283.jpg)
 
-queryID=300，DBOW3表现,同样，绿色框为re-ranking的最佳选择：
+queryID=300，DBOW3表现,同样，绿色框为re-ranking的最佳选择：<br>
 ![bof1](./images/DBOW3_matlab_orbFeatures_add_queryIdx300.jpg)
 
-queryID=2087，DBOW3表现,同样，绿色框为re-ranking的最佳选择：
+queryID=2087，DBOW3表现,同样，绿色框为re-ranking的最佳选择：<br>
 ![bof1](./images/DBOW3_matlab_orbFeatures_add_queryIdx2087.jpg)
 
 *另外关于loopClosure运作机理详细情况请参阅[窥探loop closure姿态图优化的运作机理](./loopClosureAnalyze.md)*。
@@ -113,5 +115,5 @@ struct array with fields:
 
 ## Image Localization
 
-利用已经建好的地图，加载视觉特征，然后随机给定一定位图片，定位效果图如下：
+利用已经建好的地图，加载视觉特征，然后随机给定一定位图片，定位效果图如下：<br>
 ![orb_performance](./images/location.jpg)
