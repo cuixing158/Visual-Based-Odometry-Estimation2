@@ -107,7 +107,7 @@ struct array with fields:
     Points
 ```
 
-存储数据设计为含有1198个结构体的数组，每个结构体有两个域段`Features`和`Points`，其`Features`为$2000\times32$大小的uint8数据，`Points`为$2000\times2$大小的double数据，在C++和MATLAB环境下数据类型和大小均保持一致！测试脚本见[unitTestSuitsAndBenchMark](./unitTestSuitsAndBenchMark.m)和[cereal_benchmark](https://github.com/cuixing158/DBOW3/utils/demo_cereal_bench.cpp)。关于boost未测，但可参考[此处](https://github.com/thekvs/cpp-serializers)间接比较。
+存储数据设计为含有1198个结构体的数组，每个结构体有两个域段`Features`和`Points`，其`Features`为$2000\times32$大小的uint8数据，`Points`为$2000\times2$大小的double数据，在C++和MATLAB环境下数据类型和大小均保持一致！测试脚本见[unitTestSuitsAndBenchMark](./utils/unitTestSuitsAndBenchMark.m)和[cereal_benchmark](https://github.com/cuixing158/DBOW3/utils/demo_cereal_bench.cpp)。关于boost未测，但可参考[此处](https://github.com/thekvs/cpp-serializers)间接比较。
 
 ## Function Dependency Graph
 
