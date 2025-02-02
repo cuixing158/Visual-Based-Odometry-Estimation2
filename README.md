@@ -1,5 +1,6 @@
 # Visual-Based Odometry Estimation2
 
+[![Sponsor](https://img.shields.io/badge/-Sponsor-red?style=for-the-badge&logo=GitHub-Sponsors&logoColor=white)](https://raw.githubusercontent.com/cuixing158/OpticalFlow-Visualization/refs/heads/main/README_media/sponsors.jpg)
 [![View Visual-Based-Odometry-Estimation2 on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://www.mathworks.com/matlabcentral/fileexchange/172820-visual-based-odometry-estimation2)
 
 This repo is an enhanced version of [Visual-Based Odometry Estimation](https://github.com/cuixing158/Visual-Based-Odometry-Estimation). In addition to supporting the existing features(following Features), it adds loop detection and graph optimization, supports efficient C/C++ code generation, allows for [deep customization with a C++ OpenCV MEX interface, and enables hybrid programming](./codegen_custom_cpp/README.md)!
